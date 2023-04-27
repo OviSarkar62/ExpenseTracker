@@ -1,0 +1,408 @@
+body {
+  background-color: #f5f5f5;
+  color: #1c1c1c;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1890ff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+/* Style for the filters section */
+.filters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.filters h6 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.filters select {
+  width: 150px;
+  margin-right: 20px;
+  background-color: #2d2d2d;
+  color: #f5f5f5;
+}
+
+.filters .ant-picker {
+  width: 250px;
+  margin-right: 20px;
+  background-color: #2d2d2d;
+  color: #f5f5f5;
+}
+
+.filters .switch-icons {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.filters .switch-icons .active-icon {
+  color: #1890ff;
+}
+
+.filters .switch-icons .inactive-icon {
+  color: #bfbfbf;
+}
+
+.filters button {
+  background-color: #1890ff;
+  color: #fff;
+  border: none;
+  padding: auto;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.filters button:hover {
+  background-color: #40a9ff;
+}
+
+.switch-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.switch-icons .anticon {
+  font-size: 20px;
+  margin: 0 5px;
+}
+
+/* Analytics Section */
+.analytics-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.analytics-card {
+  flex: 1;
+  margin: 10px;
+  padding: 10px;
+}
+
+.card-header {
+  background-color: #f5f5f5;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.card-equal-width {
+  width: 637px;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.text-success {
+  color: green;
+}
+
+.text-danger {
+  color: red;
+}
+
+/* Style for the content section */
+.content {
+  background-color: #f5f5f5;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  color: #444444;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Style for the table */
+.ant-table-wrapper {
+  margin-top: 20px;
+}
+
+.ant-table-thead > tr > th {
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #444444;
+  color: #f5f5f5;
+}
+
+.ant-table-tbody > tr > td {
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #f5f5f5;
+  color: #444444;
+  line-height: 1.5;
+}
+
+.ant-table-tbody > tr > td a {
+  color: #1890ff;
+}
+
+/* Style for the modal */
+.ant-modal {
+  max-width: 500px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.ant-modal-header {
+  font-size: 18px;
+  font-weight: 600;
+  color: #444444;
+  background-color: #f5f5f5;
+  border-radius: 5px 5px 0 0;
+  padding: 15px 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.ant-modal-body .ant-form-item {
+  margin-bottom: 20px;
+}
+
+.ant-modal-body .ant-form-item-label {
+  font-size: 16px;
+  font-weight: 600;
+  color: #444444;
+}
+
+.ant-modal-body .ant-select-selector {
+  border-radius: 5px;
+  background-color: #fff;
+  color: #444444;
+  border: 1px solid #e5e5e5;
+}
+
+.ant-modal-footer {
+  border-top: 1px solid #e5e5e5;
+  padding: 15px 20px;
+  border-radius: 0 0 5px 5px;
+}
+
+.ant-modal-footer button {
+  background-color: #1890ff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.ant-modal-footer button:last-child {
+  margin-right: 0;
+}
+
+.ant-modal-footer button:hover {
+  background-color: #40a9ff;
+}
+
+nav {
+  padding: 1rem;
+  background-color: #1a1a1a;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  margin-left: 600px;
+}
+
+nav .user-info {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-left: 300px;
+  color: #fff;
+}
+
+nav .user-info span {
+  margin-right: 10px;
+}
+
+nav .logout-btn {
+  margin-left: 30px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 6px auto;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+nav .logout-btn:hover {
+  background-color: #0069d9;
+}
+
+nav .user-icon {
+  margin-right: 10px;
+  color: #fff;
+}
+
+nav .container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .row {
+  width: 100%;
+}
+
+nav .col-6 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav .col-6:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.register-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+.register-page form {
+  width: 400px;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.register-page form .d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.register-page form .d-flex a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-page h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.register-page .ant-form-item {
+  margin-bottom: 20px;
+}
+
+.register-page .ant-form-item-label {
+  font-weight: bold;
+}
+
+.register-page .ant-form-item-explain {
+  color: #ff4d4f;
+}
+
+.register-page .ant-form-item-has-error .ant-input {
+  border-color: #ff4d4f;
+}
+
+.register-page .ant-form-item-has-error .ant-input:focus {
+  box-shadow: 0 0 0 2px rgba(255, 77, 79, 0.2);
+}
+
+.register-page .btn-primary {
+  width: 100%;
+}
+
+.footer {
+  background-color: #2d2d2d;
+  color: #f5f5f5;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-text {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.footer-link {
+  color: #1890ff;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.footer-social a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+}
+
+.footer-social a svg {
+  width: 20px;
+  height: 20px;
+  fill: #f5f5f5;
+}
+
+.footer-social a:hover svg {
+  fill: #1890ff;
+}
