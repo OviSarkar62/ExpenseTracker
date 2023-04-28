@@ -8,7 +8,7 @@ To install and run the ExpenseTracker application locally, follow these steps:
 
 1. Clone the repository to your local machine using the following command:
 
-   git clone https://github.com/OviSarkar62/ExpenseTracker.git
+    git clone https://github.com/OviSarkar62/ExpenseTracker.git
        
 2. Navigate to the ExpenseTracker directory:
 
