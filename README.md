@@ -24,5 +24,19 @@ To install and run the ExpenseTracker application locally, follow these steps:
 
 The application should now be running on http://localhost:3000.
 
+## Functionality
+
+The ExpenseTracker application has the following features:
+
+- User Authentication: The application requires users to create an account or log in before they can use the application.
+- Add Income: Users can add incomes by clicking on the "Add Income" button and filling out the form.
+- Add Expense: Users can add expenses by clicking on the "Add Expense" button and filling out the form.
+- Edit Income: Users can edit incomes by clicking on the "Edit" button and updating the form.
+- Edit Expense: Users can edit expenses by clicking on the "Edit" button and updating the form.
+- Delete Income: Users can delete incomes by clicking on the "Delete" button and updating the form.
+- Delete Expense: Users can delete expenses by clicking on the "Delete" button and updating the form.
+- View Income/Expense: Users can view their incomes and expenses on the dashboard page, which displays a list of all incomes and expenses as well as in pie-chart.
+
+
 ## Live Link
 [ExpenseTracker](https://tame-ant-cloak.cyclic.app)
