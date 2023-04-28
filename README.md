@@ -12,15 +12,15 @@ To install and run the ExpenseTracker application locally, follow these steps:
        
 2. Navigate to the ExpenseTracker directory:
 
-      cd ExpenseTracker
+       cd ExpenseTracker
    
 3. Install the dependencies using the following command:
 
-      npm install
+       npm install
       
 4. Start the application by running the following command:
 
-      npm start
+       npm start
 
 The application should now be running on http://localhost:3000.
 
