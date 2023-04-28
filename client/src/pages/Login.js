@@ -11,11 +11,7 @@ const Login = () => {
   const submitHandler = async (values) => {
     try {
       setLoading(true);
-<<<<<<< HEAD
       const { data } = await axios.post("/api/v1/users/login", values);
-=======
-      const { data } = await axios.post("https://expense-tracker-n12j.onrender.com/users/login", values);
->>>>>>> cde13c0fade16e716dc4f2b8ec5ae236f606facf
       setLoading(false);
       message.success("login success");
       localStorage.setItem(
