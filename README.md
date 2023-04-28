@@ -37,6 +37,16 @@ The ExpenseTracker application has the following features:
 - Delete Expense: Users can delete expenses by clicking on the "Delete" button and updating the form.
 - View Income/Expense: Users can view their incomes and expenses on the dashboard page, which displays a list of all incomes and expenses as well as in pie-chart.
 
+## Stack
+
+The ExpenseTracker application is built using the following technologies:
+- MongoDB: A document-based NoSQL database used to store user data.
+
+- Express: A Node.js framework used to build the RESTful API.
+
+- React: A JavaScript library used to build the user interface.
+
+- Node.js: A JavaScript runtime used to build the backend of the application.
 
 ## Live Link
 [ExpenseTracker](https://tame-ant-cloak.cyclic.app)
