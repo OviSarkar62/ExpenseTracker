@@ -6,31 +6,31 @@ The ExpenseTracker repository is a web application developed using the MERN stac
 
 To install and run the ExpenseTracker application locally, follow these steps:
 
-1. Clone the repository to your local machine using the following command:
+- Clone the repository to your local machine using the following command:
 
        git clone https://github.com/OviSarkar62/ExpenseTracker.git
        
-2. Navigate to the ExpenseTracker directory:
+- Navigate to the ExpenseTracker directory:
 
        cd expensetracker
    
-3. Install the server side dependencies using the following command:
+- Install the server side dependencies using the following command:
 
        npm install express express-session joi moment mongoose morgan nodemon zxcvbn dotenv cors connect-mongo colors bcrypt
 
-4. Navigate to the client directory:
+- Navigate to the client directory:
 
        cd expensetracker
        
-5. Install the client side dependencies using the following command:
+- Install the client side dependencies using the following command:
 
        npm install react-router-dom react-redux redux react-bootstrap axios antd moment
       
-6. Start the application by running the following command:
+- Start the application by running the following command:
 
        npm start
 
-7. Access the application. Open your web browser and visit http://localhost:3000 to access the ExpenseTracker application.
+- Access the application. Open your web browser and visit http://localhost:3000 to access the ExpenseTracker application.
 
 ## Functionality
 
