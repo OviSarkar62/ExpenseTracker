@@ -170,12 +170,6 @@ const HomePage = () => {
             <Select.Option value="income">Income</Select.Option>
             <Select.Option value="expense">Expense</Select.Option>
           </Select>
-          {frequency === "custom" && (
-            <RangePicker
-              value={selectedDate}
-              onChange={(values) => setSelectedate(values)}
-            />
-          )}
         </div>
         <div className="switch-icons">
           <UnorderedListOutlined
