@@ -20,7 +20,7 @@ To install and run the ExpenseTracker application locally, follow these steps:
 
 - Navigate to the client directory:
 
-       cd expensetracker
+       cd client
        
 - Install the client side dependencies using the following command:
 
