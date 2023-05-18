@@ -12,17 +12,25 @@ To install and run the ExpenseTracker application locally, follow these steps:
        
 2. Navigate to the ExpenseTracker directory:
 
-       cd ExpenseTracker
+       cd expensetracker
    
-3. Install the dependencies using the following command:
+3. Install the server side dependencies using the following command:
 
-       npm install
+       npm install express express-session joi moment mongoose morgan nodemon zxcvbn dotenv cors connect-mongo colors bcrypt
+
+4. Navigate to the client directory:
+
+       cd expensetracker
+       
+5. Install the client side dependencies using the following command:
+
+       npm install react-router-dom react-redux redux react-bootstrap axios antd moment
       
-4. Start the application by running the following command:
+6. Start the application by running the following command:
 
        npm start
 
-The application should now be running on http://localhost:3000.
+7. Access the application. Open your web browser and visit http://localhost:3000 to access the ExpenseTracker application.
 
 ## Functionality
 
