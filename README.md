@@ -6,7 +6,7 @@ The ExpenseTracker repository is a web application developed using the MERN stac
 
 - **Homepage**
 <p align="center">
-  <img alt="img-name" src="Images of POSView/Homepage.png" width="700">
+  <img alt="img-name" src="Images/Homepage.png" width="700">
 </p>
 
 ## Installation
