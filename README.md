@@ -68,11 +68,25 @@ To install and run the ExpenseTracker application locally, follow these steps:
 
        npm install react-router-dom react-redux redux react-bootstrap axios antd moment
       
-- Start the application by running the following command:
+- Create a .env file in the root directory with the following environment variables:
+
+       DB_URL = mongodb+srv://<user>:<pass>@cluster0.l17quyr.mongodb.net/database
+
+       SALT_ROUNDS = 10
+
+- Start the server: 
+
+       node index.js
+    
+- In a new terminal window, navigate to the client directory:
+
+       cd client
+    
+- Start the client: 
 
        npm start
-
-- Access the application. Open your web browser and visit http://localhost:3000 to access the ExpenseTracker application.
+    
+- Access the application. Open your web browser and visit http://localhost:3000 to access the application.
 
 ## Functionality
 
@@ -97,6 +111,7 @@ The ExpenseTracker application has the following features:
 ## Stack
 
 The ExpenseTracker application is built using the following technologies:
+
 - MongoDB: A document-based NoSQL database used to store user data.
 
 - Express: A Node.js framework used to build the RESTful API.
