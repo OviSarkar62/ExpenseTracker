@@ -9,6 +9,41 @@ The ExpenseTracker repository is a web application developed using the MERN stac
   <img alt="img-name" src="Images/Homepage.png" width="700">
 </p>
 
+- **Frequency**
+<p align="center">
+  <img alt="img-name" src="Images/Frequency.png" width="700">
+</p>
+
+- **Type**
+<p align="center">
+  <img alt="img-name" src="Images/Type.png" width="700">
+</p>
+
+- **Add Transaction**
+<p align="center">
+  <img alt="img-name" src="Images/Add Transaction.png" width="700">
+</p>
+
+- **Income Piechart**
+<p align="center">
+  <img alt="img-name" src="Images/Income piechart.png" width="700">
+</p>
+
+- **Expense Piechart**
+<p align="center">
+  <img alt="img-name" src="Images/Expense piechart.png" width="700">
+</p>
+
+- **Overall Piechart**
+<p align="center">
+  <img alt="img-name" src="Images/Overall piechart.png" width="700">
+</p>
+
+- **Categorywise Cards**
+<p align="center">
+  <img alt="img-name" src="Images/Categorywise cards.png" width="700">
+</p>
+
 ## Installation
 
 To install and run the ExpenseTracker application locally, follow these steps:
