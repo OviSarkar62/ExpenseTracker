@@ -9,12 +9,12 @@ The ExpenseTracker repository is a web application developed using the MERN stac
   <img alt="img-name" src="Images/Homepage.png" width="700">
 </p>
 
-- **Frequency**
+- **Frequency Filter**
 <p align="center">
   <img alt="img-name" src="Images/Frequency.png" width="700">
 </p>
 
-- **Type**
+- **Income/Expense Type Filter**
 <p align="center">
   <img alt="img-name" src="Images/Type.png" width="700">
 </p>
