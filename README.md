@@ -2,6 +2,13 @@
 
 The ExpenseTracker repository is a web application developed using the MERN stack, designed to help users manage their expenses. The application allows users to create and manage their accounts, add, edit, delete and view their expenses in pie-chart.
 
+## Project View
+
+- **Homepage**
+<p align="center">
+  <img alt="img-name" src="Images of POSView/Homepage.png" width="700">
+</p>
+
 ## Installation
 
 To install and run the ExpenseTracker application locally, follow these steps:
